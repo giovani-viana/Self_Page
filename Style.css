@@ -1,0 +1,70 @@
+header{
+    background-color: black;
+}
+
+span{
+    padding: 30px;
+}
+
+h1{
+    color: black;
+    font-family: Arial;
+    padding: 0px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 15px;
+    color: lightslategrey;
+    padding-left: 388px;
+}
+
+h4{
+    font-family: times;
+    font-size: 25px;
+    padding-left: 580px;
+}
+
+ul {
+    padding-left: 600px;
+}
+
+.descrição{
+    padding-left: 580px;
+    font-size: 18px;
+}
+
+.sub_2{
+    padding-left: 580px;
+}
+
+.img_perfil{
+    padding-left: 350px;
+}
+
+.name{
+    font-size: 25px;
+    font-family: Arial;
+    color: black;
+}
+
+.ocupação{
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.nascimento{
+    color: black;
+    font-size: 15px;
+    padding-left: 31px;
+}
+
+.texto-cabeçalho{
+    color: rgb(246, 109, 60);
+    font-family: Arial;
+    font-size: 35px;
+}
