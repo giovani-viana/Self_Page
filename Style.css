@@ -1,40 +1,146 @@
-header{
-    background-color: black;
+:root {
+    --background-color: #261b1b46;
+    --Highlight-color: #1D8348;
 }
 
-span{
-    padding: 30px;
+* { margin: 0; padding: 0; }
+
+body{
+    background-image: url("Imagens/Background_Index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+header {
+    color: black;
+    position: fixed;
 }
 
 h1{
-    color: black;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+h2{
     font-family: Arial;
     padding: 0px;
 }
 
-h2{
-    font-size: 25px;
+h3{
+    color: lightslategrey;
+    font-size: 40px;
 }
 
-h3{
+h4{
     font-size: 15px;
     color: lightslategrey;
     padding-left: 388px;
 }
 
-h4{
+h5{
     font-family: times;
     font-size: 25px;
     padding-left: 580px;
 }
 
+h6{
+    font-size: 40px;
+    color: lightslategrey;
+}
+
 ul {
+    color: darkgrey;
     padding-left: 600px;
 }
 
+button {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hobbies {
+    color: darkgray;
+    font-size: 28px;
+}
+
+.Img_slide3{
+    vertical-align: middle;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: lightslategrey;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    right: 10px;
+    left: 10px;
+    border-radius: 50%
+}
+
+.slider li:nth-child(2) label {
+    border-radius: 50%
+}
+
+.slider li:nth-child(3) label {
+    left: 10px;
+    border-radius: 50%;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.Last_name{
+    color: darkgrey;
+}
+
 .descrição{
+    color: darkgray;
     padding-left: 580px;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .sub_2{
@@ -42,19 +148,9 @@ ul {
 }
 
 .img_perfil{
-    padding-left: 350px;
-}
-
-.name{
-    font-size: 25px;
-    font-family: Arial;
-    color: black;
-}
-
-.ocupação{
-    font-size: 17px;
-    font-family: Arial;
-    color: black;
+    padding-left: 150px;
+    float: left;
+    margin-right: 30px;
 }
 
 .nascimento{

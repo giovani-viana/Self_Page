@@ -8,11 +8,13 @@
 
 body
 {
+    background-image: url("Imagens/Gate_background.jpg");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #120a8f;/*#0d0f1b; */
+    background-color: #cccccc;/*#0d0f1b; */
     overflow: hidden;    
 }
 
